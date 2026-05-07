@@ -1,7 +1,7 @@
 # RFDD-SRD
 
 <p align="center">
-  <img src="fig/RFDD-SRD.png" width="100%">
+  <img src="RFDD-SRD.png" width="100%">
 </p>
 
 <p align="center">
