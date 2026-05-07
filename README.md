@@ -2,7 +2,7 @@
 ## Rail Fastener Damage Detection Standard Reference Dataset
 
 <p align="center">
-  <img src="docs/cover.png" width="100%">
+  <img src="fig/RFDD-SRD.png" width="100%">
 </p>
 
 <p align="center">
@@ -23,23 +23,6 @@ Unlike conventional task-oriented datasets, RFDD-SRD emphasizes:
 - high-precision annotation reliability.
 
 The dataset is intended to support objective comparison across different detection algorithms and imaging systems.
-
----
-
-## ✨ Dataset Characteristics
-
-- Unified railway inspection perspective
-- 100 carefully curated samples
-- 6 fasteners per image
-- 5 representative damage categories:
-  - Missing
-  - Inverted
-  - Displaced
-  - Deformed
-  - Fractured
-- Pixel-accurate annotations
-- Multi-annotator cross-validation
-- Multi-dimensional consistency evaluation
 
 ---
 
