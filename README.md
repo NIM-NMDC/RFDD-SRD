@@ -41,7 +41,7 @@ Torchvision provides the first three implementations. Ultralytics provides RT-DE
 | `predict.py` | Runs inference with any released checkpoint using a unified EXIF-normalized image loader. |
 | `results/internal_cv/` | Final internal five-fold metrics. |
 | `results/external_real/` | Final EXIF-normalized external real-world metrics. |
-| `weights/` | One released full-data checkpoint per architecture and its checksum manifest. |
+| `weights/` | [Download the released model checkpoints](https://aistudio.baidu.com/dataset/detail/397725/file). |
 
 ## Environment
 
