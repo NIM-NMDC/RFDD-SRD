@@ -1,0 +1,21 @@
+{
+  "images": 100,
+  "boxes": 602,
+  "damage_containing_images": 20,
+  "normal_only_images": 80,
+  "class_counts": {
+    "Deformed": 3,
+    "Displaced": 6,
+    "Fractured": 2,
+    "Inverted": 4,
+    "Missing": 5,
+    "Normal": 582
+  },
+  "dimensions": {
+    "2048x2021": 100
+  },
+  "boxes_per_image": {
+    "6": 99,
+    "8": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "dataset": "RFDD-SRD final release",
+  "images": 100,
+  "ground_truth_boxes": 619,
+  "models": {
+    "fasterrcnn_r50_fpn_v2": "Faster R-CNN R50-FPN V2",
+    "retinanet_r50_fpn_v2": "RetinaNet R50-FPN V2",
+    "fcos_r50_fpn": "FCOS R50-FPN",
+    "rtdetr_l": "RT-DETR-L",
+    "yolo11m": "YOLO11m",
+    "yolov10m": "YOLOv10m"
+  },
+  "seeds": [
+    20260908,
+    20260909,
+    20260910
+  ],
+  "outer_folds": 5,
+  "outer_test_coverage_per_seed": "each of the 100 images exactly once",
+  "threshold_selection": "per-fold RFDD-SRD validation subset; fixed grid 0.01:0.01:0.99; maximize macro-F1 at IoU 0.50; higher threshold breaks ties",
+  "matching": "class-aware greedy one-to-one matching in descending score order",
+  "ap": "101-point interpolated AP; AP50:95 averages IoU 0.50:0.05:0.95",
+  "false_alarm_reporting": "FDR=FP/(TP+FP) and FPPI=FP/100 images",
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 20260908,
+    "unit": "two-image source/template group",
+    "stratification": "10 groups sampled with replacement within each of five defect classes",
+    "interval": "percentile 95%",
+    "aggregation": "metric averaged over three independent training seeds within each bootstrap replicate"
+  },
+  "rfdd_srd_training_data_used": true
+}

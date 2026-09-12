@@ -1,0 +1,36 @@
+{
+  "dataset_audit": {
+    "images": 100,
+    "boxes": 602,
+    "damage_containing_images": 20,
+    "normal_only_images": 80,
+    "class_counts": {
+      "Deformed": 3,
+      "Displaced": 6,
+      "Fractured": 2,
+      "Inverted": 4,
+      "Missing": 5,
+      "Normal": 582
+    },
+    "dimensions": {
+      "2048x2021": 100
+    },
+    "boxes_per_image": {
+      "6": 99,
+      "8": 1
+    }
+  },
+  "training": "all 100 RFDD-SRD final-release images (619 boxes)",
+  "testing": "100 independent real images only",
+  "repeats": "three independently trained random seeds",
+  "initialization": "COCO-pretrained generic weights",
+  "checkpoint_selection": "fixed final epoch; epoch counts frozen from RFDD-SRD CV",
+  "threshold_selection": "median RFDD-SRD validation threshold within each model/seed",
+  "matching": "class-aware greedy one-to-one matching at IoU 0.50",
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 20260910,
+    "unit": "source/acquisition group",
+    "stratified": true
+  }
+}
