@@ -1,5 +1,7 @@
 # RFDD-SRD benchmark code
 
+[![RFDD-SRD](https://raw.githubusercontent.com/NIM-NMDC/RFDD-SRD/main/RFDD-SRD.png)](https://github.com/NIM-NMDC/RFDD-SRD/blob/main/RFDD-SRD.png)
+
 This repository contains the final code used for the RFDD-SRD benchmark experiments. It reproduces the leakage-aware internal five-fold cross-validation and the independent external real-world evaluation reported in the manuscript. Plotting and manuscript-generation scripts are intentionally excluded.
 
 ## Evaluated detectors
