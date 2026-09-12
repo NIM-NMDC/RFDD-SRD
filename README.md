@@ -1,17 +1,3 @@
-# RFDD-SRD
-
-<p align="center">
-  <img src="RFDD-SRD.png" width="100%">
-</p>
-
-<p align="center">
-  <b>RFDD-SRD.</b>
-</p>
-
----
-
-## 📌 Overview
-
 # RFDD-SRD benchmark code
 
 This repository contains the final code used for the RFDD-SRD benchmark experiments. It reproduces the leakage-aware internal five-fold cross-validation and the independent external real-world evaluation reported in the manuscript. Plotting and manuscript-generation scripts are intentionally excluded.
@@ -239,24 +225,3 @@ Verify downloaded checkpoints against `weights/checkpoint_manifest.csv` before i
 - The dataset itself is not duplicated in this code package. Use the released RFDD-SRD dataset and preserve its filenames and class order.
 
 If this code or the accompanying dataset is used in published work, please cite the RFDD-SRD data description paper.
-
-
----
-
-## 📂 Dataset Structure
-
-```text
-RFDD-SRD.zip
-│
-├── images/
-│   ├── 000001.png
-│   ├── 000002.png
-│   └── ...
-│
-├── labels/
-│   ├── 000001.txt
-│   ├── 000002.txt
-│   └── ...
-│
-├── classes.txt
-└── notes.json
