@@ -39,7 +39,6 @@ Torchvision provides the first three implementations. Ultralytics provides RT-DE
 | `evaluate_external.py` | Aggregates repeated external-test results and computes source-group bootstrap confidence intervals. |
 | `evaluate_external_cv.py` | Shared detection metrics plus optional frozen-CV-checkpoint external evaluation. |
 | `predict.py` | Runs inference with any released checkpoint using a unified EXIF-normalized image loader. |
-| `manifests/` | Final source-group and split manifests used in the study. |
 | `results/internal_cv/` | Final internal five-fold metrics. |
 | `results/external_real/` | Final EXIF-normalized external real-world metrics. |
 | `weights/` | One released full-data checkpoint per architecture and its checksum manifest. |
